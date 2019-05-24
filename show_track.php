@@ -227,9 +227,9 @@ function showUser(str) { // Function collected from https://www.w3schools.com
 
 <?php
 $server = "localhost";// Adding database details to variables, 
-$username = "vikand18"; // server, username, password, and the name of the db
-$database = "vikand18_db";
-$password = "JgI2yYME9b";
+$username = "****"; // server, username, password, and the name of the db
+$database = "*****";
+$password = "*****";
 $con = mysql_connect($server,$username,$password); // Connecting to db 
 mysql_select_db($database, $con) or die( "Unable to select database");
 $query="SELECT * FROM track ORDER BY id DESC LIMIT 50"; // Displaying all the data from track into a table.
