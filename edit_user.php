@@ -3,9 +3,9 @@
 include('template.php');
 
 $server = "localhost"; // Keep connecting to the db through all files with ip tracking and such. see displayusers.php
-$username = "vikand18"; // for detailed comments. 
-$password = "JgI2yYME9b";
-$database = "vikand18_db";
+$username = "*****"; // for detailed comments. 
+$password = "*****";
+$database = "*****";
 
 $connId = mysql_connect($server,$username,$password) or die("Cannot connect to server");
 $selectDb = mysql_select_db($database,$connId) or die("Cannot connect to database");

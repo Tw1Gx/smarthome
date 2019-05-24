@@ -1,12 +1,12 @@
 
 <?php
 $host = "localhost";
-$user = "vikand18";
-$pwd = "JgI2yYME9b";
-$db = "vikand18_db";
+$user = "*****";
+$pwd = "*****";
+$db = "*****";
 
 $connId = mysql_connect($host, $user, $pwd) or die(mysql_error());
-$dbselect = mysql_select_db("vikand18_db", $connId ) or die(mysql_error());
+$dbselect = mysql_select_db("*****", $connId ) or die(mysql_error());
 
  $query = <<<END
 UPDATE hallway_devices

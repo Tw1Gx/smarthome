@@ -36,7 +36,7 @@ th {text-align: left;}
 <?php // function collected from https://www.w3schools.com and https://stackoverflow.com/questions/43286387/adding-a-delete-button-in-php-on-each-row-of-a-mysql-table
 $q = intval($_GET['q']);
 
-$con = mysqli_connect('localhost','vikand18','JgI2yYME9b','vikand18_db');
+$con = mysqli_connect('localhost','*****','*****','*****');
 if (!$con) {
     die('Could not connect: ' . mysqli_error($con));
 }

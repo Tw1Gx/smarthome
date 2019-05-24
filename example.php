@@ -2,9 +2,9 @@
 // EXAMPLE FILE FOR IP TRACKING AND SUCH. NO IMPLEMENTED ON EVERY PAGE.
 
 $server = "localhost";
-$username = "vikand18";
-$password = "JgI2yYME9b";
-$database = "vikand18_db";
+$username = "*****";
+$password = "*****";
+$database = "*****";
 
 $connId = mysql_connect($server,$username,$password) or die("Cannot connect to server");
 $selectDb = mysql_select_db($database,$connId) or die("Cannot connect to database");
