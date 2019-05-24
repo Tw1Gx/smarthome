@@ -2,8 +2,8 @@
 session_name('Website');
 session_start();
 $host = "localhost";
-$user = "vikand18";
-$pwd = "JgI2yYME9b";
-$db = "vikand18_db";
+$user = "*****";
+$pwd = "*******";
+$db = "***";
 $mysqli = new mysqli($host, $user, $pwd, $db);
 ?>
