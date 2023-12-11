@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-
+//  Author Tw1G
 include('template.php');
 $server = "localhost"; // Keep connecting to the db through all files with ip tracking and such. see displayusers.php
 $username = "*****"; // for detailed comments. 
@@ -19,7 +19,6 @@ $strSQL = "INSERT INTO track(tm, agent, ip, tracking_page_name ) VALUES(curdate(
 mysql_query($strSQL);
 //var_dump($ref, $agent, $ip, $tracking_page_name);
 
-// Above created by Johannes Grönhed ITF
 // ---------------------------------------------------------------------------------------------------------------------
 if(empty($_SESSION["username"])){ /* No user ís logged in */
   header("LOCATION:login.php"); /* Redirect to login page */
